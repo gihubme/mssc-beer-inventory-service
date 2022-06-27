@@ -50,8 +50,8 @@ jobs:
           name: IntegrationTest
           command: ./mvnw integration-test
       - run:
-        name: UnitTest
-        command: ./mvnw test
+          name: UnitTest
+          command: ./mvnw test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
